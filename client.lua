@@ -20,7 +20,7 @@ pos2= {
 local player = GetPlayerPed(-1)
 
 Citizen.CreateThread(function ()
-    while both==true do
+    while true do
         Citizen.Wait(5)
         local player = GetPlayerPed(-1)
         local playerLoc = GetEntityCoords(player)
